@@ -1,0 +1,4 @@
+content:
+  - NullPointerException
+  - Unknown input
+  - Return empty string when argument is null

@@ -26,3 +26,4 @@ content:
   - Errors in programs
   - Exception handling
   - Throwing exceptions
+  - NullPointerException
