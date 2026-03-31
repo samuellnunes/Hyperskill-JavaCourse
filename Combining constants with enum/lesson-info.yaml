@@ -1,0 +1,5 @@
+content:
+  - Combining constants with enum
+  - Currencies
+  - Days of week
+  - Enum weekday from integer input

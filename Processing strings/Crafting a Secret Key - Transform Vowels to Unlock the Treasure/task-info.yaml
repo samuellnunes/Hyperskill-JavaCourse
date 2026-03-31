@@ -1,0 +1,11 @@
+type: code
+custom_name: Crafting a Secret Key - Transform Vowels to Unlock the Treasure!
+files:
+  - name: src/Main.java
+    visible: true
+    highlight_level: NONE
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/51566#comment
+status: Solved
+record: -1
+submission_language: java17

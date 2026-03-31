@@ -1,0 +1,28 @@
+content:
+  - Iterating over arrays
+  - Arrays as parameters
+  - Command-line arguments
+  - String
+  - Processing strings
+  - Formatted output
+  - Defining classes
+  - Grouping classes with packages
+  - Initializing new instances. Constructor
+  - Instance methods
+  - Getters and setters
+  - Multiple constructors
+  - Static members
+  - Inheritance
+  - Method overriding
+  - Polymorphism
+  - Declaring functionality with interfaces
+  - Default methods
+  - Abstract class
+  - Currencies
+  - Combining constants with enum
+  - Fields and methods in enum
+  - Anonymous class
+  - Input streams
+  - Errors in programs
+  - Exception handling
+  - Throwing exceptions
