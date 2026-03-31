@@ -28,3 +28,4 @@ content:
   - Throwing exceptions
   - NullPointerException
   - Try with resources
+  - LocalDate
