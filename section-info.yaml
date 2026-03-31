@@ -27,3 +27,4 @@ content:
   - Exception handling
   - Throwing exceptions
   - NullPointerException
+  - Try with resources
