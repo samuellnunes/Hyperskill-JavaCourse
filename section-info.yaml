@@ -34,3 +34,4 @@ content:
   - Generics and Object
   - Lambda expressions
   - Method references
+  - Functional interfaces
