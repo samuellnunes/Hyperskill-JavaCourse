@@ -33,3 +33,4 @@ content:
   - Introduction to generic programming
   - Generics and Object
   - Lambda expressions
+  - Method references
