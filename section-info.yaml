@@ -49,3 +49,4 @@ content:
   - Regexes in programs
   - Patterns and Matcher
   - Match results
+  - Threads as objects
