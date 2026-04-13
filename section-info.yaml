@@ -52,3 +52,4 @@ content:
   - Threads as objects
   - Custom threads
   - Thread management
+  - States of a thread
