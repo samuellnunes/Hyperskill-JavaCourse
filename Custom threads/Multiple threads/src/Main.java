@@ -1,10 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        WorkerThread t1 = new WorkerThread("worker-1");
-        WorkerThread t2 = new WorkerThread("worker-2");
-
-        t1.start();
-        t2.start();
+        // create instances and start threads here
     }
 }
 

@@ -31,13 +31,7 @@ class StockItem {
 
 class Utils {
     public static List<StockItem> sort(List<StockItem> stockItems) {
-
-        stockItems.sort((s1, s2) -> {
-            double total1 = s1.getPricePerUnit() * s1.getQuantity();
-            double total2 = s2.getPricePerUnit() * s2.getQuantity();
-            return Double.compare(total2, total1); // descending order
-        });
-
-        return stockItems;
+        // your code here
+        return null;
     }
 }

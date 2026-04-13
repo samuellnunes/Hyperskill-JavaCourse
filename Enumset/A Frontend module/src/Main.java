@@ -1,11 +1,9 @@
-import java.util.EnumSet;
-import java.util.Scanner;
-
+// Include import statements
 public class Main {
 
     enum Fonts {
         BOLD, LARGE, MEDIUM, SMALL, ITALIC, NORMAL
-    }
+    }   
 
     EnumSet<Fonts> enumSet;
 
@@ -19,31 +17,19 @@ public class Main {
         // Change Code below this line
         switch (string) {
             case "Main-Heading":
-                object.enumSet = EnumSet.of(Fonts.BOLD, Fonts.LARGE, Fonts.NORMAL);
                 break;
-
             case "Quote":
-                object.enumSet = EnumSet.of(Fonts.SMALL, Fonts.ITALIC);
-                break;
-
+                    break;
             case "Paragraph":
-                object.enumSet = EnumSet.of(Fonts.SMALL, Fonts.NORMAL);
-                break;
-
+                    break;
             case "Sub-Heading":
-                object.enumSet = EnumSet.of(Fonts.MEDIUM, Fonts.NORMAL);
-                break;
-
+                    break;
             case "Quote|BOLD":
-                object.enumSet = EnumSet.of(Fonts.BOLD, Fonts.SMALL, Fonts.ITALIC);
-                break;
-
-            default:
-                System.out.println("ERROR");
-                return;
+                    break;
+            default : System.out.println("ERROR");
+                    break;
         }
         // Change the code above this line
-
         System.out.println(object.enumSet);
     }
 }

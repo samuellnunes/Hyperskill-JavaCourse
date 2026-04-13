@@ -10,17 +10,11 @@ public class Main {
             String operation = scanner.nextLine();
 
             if (operation.equals("add")) {
-                String task = scanner.nextLine();
-                taskList.add(task);
 
             } else if (operation.equals("remove")) {
-                int index = Integer.parseInt(scanner.nextLine());
-                if (index >= 0 && index < taskList.size()) {
-                    taskList.remove(index);
-                }
 
             } else if (operation.equals("display")) {
-                System.out.println(taskList);
+
             }
         }
 

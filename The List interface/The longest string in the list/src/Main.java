@@ -3,17 +3,7 @@ import java.util.*;
 public class Main {
 
     static void changeList(List<String> list) {
-        String longest = "";
-
-        for (String s : list) {
-            if (s.length() > longest.length()) {
-                longest = s;
-            }
-        }
-
-        for (int i = 0; i < list.size(); i++) {
-            list.set(i, longest);
-        }
+        // write your code here
     }
 
     /* Do not change code below */

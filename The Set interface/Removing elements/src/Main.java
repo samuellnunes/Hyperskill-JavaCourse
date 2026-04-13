@@ -3,19 +3,13 @@ import java.util.*;
 class SetUtils {
 
     public static Set<Integer> getSetFromString(String str) {
-        Set<Integer> set = new TreeSet<>();
-        String[] parts = str.split(" ");
-
-        for (String p : parts) {
-            set.add(Integer.parseInt(p));
-        }
-
-        return set;
+        // write your code here
     }
 
     public static void removeAllNumbersGreaterThan10(Set<Integer> set) {
-        set.removeIf(n -> n > 10);
+        // write your code here
     }
+
 }
 
 /* Do not change code below */

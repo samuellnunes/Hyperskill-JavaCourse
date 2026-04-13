@@ -1,6 +1,6 @@
 class ThreadUtil {
     static Thread createThreadInNewState() {
-        return new Thread();
+        //implement the method
     }
 }
 

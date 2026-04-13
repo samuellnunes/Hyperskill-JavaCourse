@@ -8,8 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Optimized for enums
-        Set<Element> set = EnumSet.allOf(Element.class);
+        // Change this statement
+        Set<Element> set = new HashSet<>(); 
 
         /** instanceof operator returns true if set object has EnumSet type
          *  and false - otherwise

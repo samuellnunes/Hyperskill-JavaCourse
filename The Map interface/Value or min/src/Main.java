@@ -2,19 +2,7 @@ import java.util.*;
 
 class Main {
     private static int getOrMin(Map<String, Integer> map, String key) {
-        if (map.containsKey(key)) {
-            return map.get(key);
-        }
-
-        int min = Integer.MAX_VALUE;
-
-        for (int value : map.values()) {
-            if (value < min) {
-                min = value;
-            }
-        }
-
-        return min;
+        // implement me
     }
 
     // do not change the code below

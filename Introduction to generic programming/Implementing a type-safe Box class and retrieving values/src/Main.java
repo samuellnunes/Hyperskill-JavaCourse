@@ -1,38 +1,22 @@
 import java.util.*;
 
 public class Main {
-
     static class Box<T> {
-        private T value;
-
-        // constructor
-        public Box(T value) {
-            this.value = value;
-        }
-
-        // get method
-        public T get() {
-            return value;
-        }
+        // your code here
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        if (sc.hasNextInt()) {
+        if(sc.hasNextInt()) {
             int num = sc.nextInt();
-            Box<Integer> box = new Box<>(num);
-            System.out.println(box.get());
-
+            // your code here
         } else if (sc.hasNextFloat()) {
             float num = sc.nextFloat();
-            Box<Float> box = new Box<>(num);
-            System.out.println(box.get());
-
+            // your code here
         } else {
             String str = sc.next();
-            Box<String> box = new Box<>(str);
-            System.out.println(box.get());
+            // your code here
         }
     }
 }

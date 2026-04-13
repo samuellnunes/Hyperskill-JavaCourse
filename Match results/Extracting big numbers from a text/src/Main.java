@@ -6,14 +6,9 @@ class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         String stringWithNumbers = scanner.nextLine();
 
-        Pattern pattern = Pattern.compile("\\d{10,}");
-        Matcher matcher = pattern.matcher(stringWithNumbers);
-
-        while (matcher.find()) {
-            String num = matcher.group();
-            System.out.println(num + ":" + num.length());
-        }
+        // write your code here
     }
 }

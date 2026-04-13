@@ -2,13 +2,7 @@ import java.util.*;
 
 class Main {
     private static Map<String, Integer> createStatuses() {
-        Map<String, Integer> map = new HashMap<>();
-
-        map.put("SUCCESS", 0);
-        map.put("FAIL", 1);
-        map.put("WARN", 2);
-
-        return map;
+        // implement me
     }
 
     // do not change the code below

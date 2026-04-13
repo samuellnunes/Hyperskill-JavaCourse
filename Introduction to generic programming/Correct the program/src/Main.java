@@ -1,6 +1,7 @@
 class Main {
     public static void main(String... args) {
-        Printer<String> printer = new Printer<>();
+        // correct the next line
+        Printer<Integer> printer = new Printer();
 
         // do not change the code below
         printer.set("value");

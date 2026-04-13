@@ -5,13 +5,7 @@ public class Main {
     private static String array = null;
 
     public static void methodCatchingSomeExceptions() {
-        try {
-            methodThrowingExceptions();
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("ArrayIndexOutOfBoundsException");
-        } catch (NumberFormatException e) {
-            System.out.println("NumberFormatException");
-        }
+        // invoke methodThrowingExceptions here and catch some types of exceptions
     }
 
     /* Do not change code below */
@@ -37,6 +31,7 @@ public class Main {
         }
         System.out.print("Mean is " + meanValue);
     }
+
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -53,3 +53,4 @@ content:
   - Custom threads
   - Thread management
   - States of a thread
+  - ThreadLocal

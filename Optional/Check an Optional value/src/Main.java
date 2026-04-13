@@ -3,14 +3,12 @@ import java.util.Optional;
 class Main {
     public static void main(String[] args) {
         ValueProvider provider = new ValueProvider();
-
-        Optional<String> value = provider.getValue();
-        value.ifPresent(System.out::println);
+        // use provider.getValue() to get Optional<String>
     }
 }
 
 class ValueProvider {
-    private Optional<String> inputOpt;
+    private Optional<String> inputOpt; // cache to provide reproducing method invocation
 
     public Optional<String> getValue() {
         if (inputOpt == null) {
@@ -18,6 +16,7 @@ class ValueProvider {
             String input = scanner.next();
             inputOpt = "null".equals(input) ? Optional.empty() : Optional.of(input);
         }
+
         return inputOpt;
     }
 }

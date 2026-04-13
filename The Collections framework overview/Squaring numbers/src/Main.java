@@ -7,13 +7,8 @@ import java.util.stream.Collectors;
 class CollectionUtils {
 
     public static Collection<Integer> pow2(Collection<Integer> numbers) {
-        Collection<Integer> result = new ArrayList<>();
-
-        for (Integer n : numbers) {
-            result.add(n * n);
-        }
-
-        return result;
+        // write your code here
+        return numbers;
     }
 }
 
@@ -24,8 +19,7 @@ public class Main {
 
         Collection<Integer> numbers = Arrays
                 .stream(scanner.nextLine().split("\\s+"))
-                .map(Integer::parseInt)
-                .collect(Collectors.toList());
+                .map(Integer::parseInt).collect(Collectors.toList());
 
         Collection<Integer> result = CollectionUtils.pow2(numbers);
 

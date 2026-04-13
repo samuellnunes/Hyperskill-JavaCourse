@@ -5,8 +5,5 @@ files:
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/14366#comment
 status: Solved
-feedback:
-  message: <html>Correct solution</html>
-  time: "Sat, 04 Apr 2026 04:12:34 UTC"
 record: -1
 submission_language: java17

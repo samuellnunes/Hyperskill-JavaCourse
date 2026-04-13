@@ -1,7 +1,7 @@
 public class Main {
 
     public static void method() {
-        throw new RuntimeException();
+        // write your code here
     }
 
     /* Do not change code below */

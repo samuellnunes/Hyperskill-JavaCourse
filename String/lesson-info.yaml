@@ -2,4 +2,3 @@ content:
   - String
   - Extracting a substring
   - Comparing strings ignoring whitespaces
-  - Replacing 'a' with 'b'

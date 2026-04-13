@@ -2,13 +2,7 @@ import java.util.*;
 
 class Main {
     private static int sum(Map<String, Integer> map) {
-        int total = 0;
-
-        for (int value : map.values()) {
-            total += value;
-        }
-
-        return total;
+        // implement me
     }
 
     // do not change the code below
