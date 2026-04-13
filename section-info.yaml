@@ -50,3 +50,4 @@ content:
   - Patterns and Matcher
   - Match results
   - Threads as objects
+  - Custom threads
