@@ -54,3 +54,4 @@ content:
   - Thread management
   - States of a thread
   - ThreadLocal
+  - Thread synchronization
