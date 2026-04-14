@@ -56,3 +56,6 @@ content:
   - ThreadLocal
   - Thread synchronization
   - Atomics
+  - Reentrant lock
+  - Semaphores
+  - CountDownLatch
