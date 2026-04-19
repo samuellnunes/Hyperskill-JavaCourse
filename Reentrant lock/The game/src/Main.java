@@ -13,22 +13,7 @@ class Enemy {
 
     public boolean protect(int damage) throws InterruptedException {
         if (lock.tryLock()) {
-            try {
-                if (health <= 0) {
-                    return false;
-                }
-
-                health -= damage;
-
-                long start = System.currentTimeMillis();
-                while (System.currentTimeMillis() - start < TIMEOUT_MS) {
-                    // active waiting
-                }
-
-                return false; // stop after one successful attack
-            } finally {
-                lock.unlock();
-            }
+            // Write your code here...
         } else {
             return true;
         }

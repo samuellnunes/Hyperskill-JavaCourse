@@ -14,12 +14,8 @@ class Worker implements Runnable {
 
     @Override
     public void run() {
-        lock.lock();
-        try {
-            data.multiply(2);
-        } finally {
-            lock.unlock();
-        }
+        // Protect code below...
+        data.multiply(2);
     }
 }
 

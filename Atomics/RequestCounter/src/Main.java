@@ -1,13 +1,13 @@
 import java.util.concurrent.atomic.AtomicInteger;
 
 class RequestCounter {
-    private AtomicInteger counter = new AtomicInteger(0);
+    //Write your code here.
 
     public void increment() {
-        counter.incrementAndGet();
+        //Implement this function.
     }
 
     public int getCount() {
-        return counter.get();
+        //Implement this function.
     }
 }
