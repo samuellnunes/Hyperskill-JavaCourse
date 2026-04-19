@@ -60,3 +60,4 @@ content:
   - Semaphores
   - CountDownLatch
   - CopyOnWriteArrayList
+  - Interruptions
