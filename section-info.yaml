@@ -62,3 +62,5 @@ content:
   - CopyOnWriteArrayList
   - Interruptions
   - Executors
+  - Callable and Future
+  - CompletableFuture

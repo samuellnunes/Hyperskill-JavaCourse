@@ -1,0 +1,14 @@
+type: code
+custom_name: How many Callable objects are there?
+files:
+  - name: src/Main.java
+    visible: true
+    highlight_level: NONE
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4946#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 20 Apr 2026 23:01:01 UTC"
+record: -1
+submission_language: java17

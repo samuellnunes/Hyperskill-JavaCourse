@@ -4,12 +4,7 @@ import java.util.Iterator;
 class PrintElementsClass {
 
     public static void printElements(CopyOnWriteArrayList<String> onWriteArrayList, String elementToAdd) {
-        onWriteArrayList.add(elementToAdd);
+        // write your code here:
 
-        Iterator<String> iterator = onWriteArrayList.iterator();
-
-        while (iterator.hasNext()) {
-            System.out.print(iterator.next() + " ");
-        }
     }
 }
