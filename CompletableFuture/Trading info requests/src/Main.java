@@ -6,9 +6,8 @@ public class Main {
         var microsoft = CompletableFuture.supplyAsync(() -> requestInfo("MSFT"));
         var google = CompletableFuture.supplyAsync(() -> requestInfo("GOOG"));
 
-        CompletableFuture<Object> firstAssetFuture =
-                CompletableFuture.anyOf(apple, microsoft, google);
-
+        // edit code above
+//        CompletableFuture<Object> firstAssetFuture =
         return firstAssetFuture;
     }
 

@@ -64,3 +64,4 @@ content:
   - Executors
   - Callable and Future
   - CompletableFuture
+  - Functional data processing with streams
