@@ -11,7 +11,7 @@ public class Main {
      * @return the number of elements in a given stream
      */
     public static long countPasswords(Stream<String> passwordStream) {
-        return passwordStream.count();
+        // write your code here
     }
 
     // Don't change the code below

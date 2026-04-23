@@ -65,3 +65,7 @@ content:
   - Callable and Future
   - CompletableFuture
   - Functional data processing with streams
+  - Stream filtering
+  - Map and flatMap
+  - Reduction methods
+  - Collectors

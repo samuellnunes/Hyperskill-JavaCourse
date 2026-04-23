@@ -10,7 +10,7 @@ public class Main {
      * @param wordStream the input stream of strings
      */
     public static void sortAndPrint(Stream<String> wordStream) {
-        wordStream.sorted().forEach(System.out::println);
+        // write your code here
     }
 
     // Don't change the code below
