@@ -13,8 +13,7 @@ class Main {
      * @return the result of joining
      */
     public static String asciiArt(List<String> symbols) {
-        return symbols.stream()
-                .collect(Collectors.joining("", "(", ")"));
+        // write your code here
     }
 
     // Don't change the code below

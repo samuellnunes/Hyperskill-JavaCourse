@@ -12,11 +12,7 @@ public class Main {
      * @return the number of unique words in lines ignoring case sensitivity
      */
     public static long count(int n, List<List<String>> lines) {
-        return lines.stream()
-                .flatMap(List::stream)
-                .map(String::toLowerCase)
-                .distinct()
-                .count();
+        // write your code here
     }
 
     // Don't change the code below

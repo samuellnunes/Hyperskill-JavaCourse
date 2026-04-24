@@ -10,8 +10,8 @@ class PrimeNumbers {
      * @return true if number is prime else false
      */
     private static boolean isPrime(long number) {
-        return LongStream.rangeClosed(2, (long) Math.sqrt(number))
-                .noneMatch(i -> number % i == 0);
+        // write your code here
+        return false;
     }
 
     public static void main(String[] args) {

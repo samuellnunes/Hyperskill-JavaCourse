@@ -69,3 +69,6 @@ content:
   - Map and flatMap
   - Reduction methods
   - Collectors
+  - Taking elements
+  - Infinite streams
+  - Stream pipelines

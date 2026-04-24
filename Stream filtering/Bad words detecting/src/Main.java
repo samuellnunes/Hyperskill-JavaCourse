@@ -6,12 +6,10 @@ import java.util.stream.*;
 
 class BadWordsDetector {
 
-    private static Stream<String> createBadWordsDetectingStream(String text,
+    private static Stream<String> createBadWordsDetectingStream(String text, 
                                                                 List<String> badWords) {
-        return Arrays.stream(text.split(" "))
-                .filter(badWords::contains)
-                .distinct()
-                .sorted();
+        // write your code here
+        return Stream.of();
     }
 
     /* Do not change the code below */
