@@ -72,3 +72,6 @@ content:
   - Taking elements
   - Infinite streams
   - Stream pipelines
+  - Parallel streams
+  - Runtime type checking
+  - Retrieving Class instances
