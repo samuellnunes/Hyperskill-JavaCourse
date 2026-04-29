@@ -4,12 +4,11 @@ import java.util.stream.*;
 class ParallelFilteringStream {
 
     public static LongStream createPrimesFilteringStream(long start, long end) {
-        return LongStream
-                .rangeClosed(start, end)
-                .parallel()
-                .filter(NumberUtils::isPrime);
+        // write your code here
+        return LongStream.of();
     }
 
+    /* Please do not modify the code below */
     public static void main(String[] args) {
         final Scanner scanner = new Scanner(System.in);
         final String[] vals = scanner.nextLine().split(" ");
@@ -21,7 +20,7 @@ class ParallelFilteringStream {
 
         if (!stream.isParallel()) {
             throw new RuntimeException(
-                    "You need to write a parallel stream, not sequential!");
+                "You need to write a parallel stream, not sequential!");
         }
 
         final Long count = stream.boxed().count();

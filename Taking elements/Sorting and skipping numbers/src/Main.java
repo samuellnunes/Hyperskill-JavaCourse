@@ -4,10 +4,7 @@ import java.util.stream.Collectors;
 class ProcessNumbers {
 
     public static List<Integer> processNumbers(Collection<Integer> numbers) {
-        return numbers.stream()
-                .filter(n -> n >= 10)
-                .sorted()
-                .collect(Collectors.toList());
+        // write your code here
     }
 
     public static void main(String[] args) {

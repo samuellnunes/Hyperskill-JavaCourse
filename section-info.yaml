@@ -75,3 +75,7 @@ content:
   - Parallel streams
   - Runtime type checking
   - Retrieving Class instances
+  - Dealing with modifiers
+  - Manipulating fields and methods
+  - Detecting annotations
+  - Custom annotations and types of annotations

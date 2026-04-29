@@ -4,7 +4,7 @@
 class ClassGetter {
 
     public String getObjectClassName(Object object) {
-        return object.getClass().getName();
+        // Add implementation here
     }
 
 }
