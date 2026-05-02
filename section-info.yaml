@@ -79,3 +79,4 @@ content:
   - Manipulating fields and methods
   - Detecting annotations
   - Custom annotations and types of annotations
+  - Unit testing with JUnit
