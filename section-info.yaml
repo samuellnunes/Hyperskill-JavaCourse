@@ -81,3 +81,6 @@ content:
   - Custom annotations and types of annotations
   - Unit testing with JUnit
   - Class Loader
+  - Encapsulating object creation
+  - Factory method
+  - Abstract factory
