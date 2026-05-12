@@ -84,3 +84,7 @@ content:
   - Encapsulating object creation
   - Factory method
   - Abstract factory
+  - Builder
+  - Strategy
+  - Command
+  - Template method

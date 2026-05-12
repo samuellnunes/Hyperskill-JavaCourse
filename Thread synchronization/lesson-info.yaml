@@ -1,4 +1,3 @@
 content:
   - Thread synchronization
   - Thread safe down counter
-  - Thread safe counter
