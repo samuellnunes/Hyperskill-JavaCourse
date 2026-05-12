@@ -2,11 +2,12 @@ type: code
 files:
   - name: src/Main.java
     visible: true
+    highlight_level: NONE
     learner_created: false
-feedback_link: https://hyperskill.org/learn/step/3331#comment
+feedback_link: https://hyperskill.org/learn/step/12444#comment
 status: Solved
 feedback:
   message: <html>Correct solution</html>
-  time: "Tue, 12 May 2026 16:11:54 UTC"
+  time: "Tue, 12 May 2026 16:11:02 UTC"
 record: -1
 submission_language: java17

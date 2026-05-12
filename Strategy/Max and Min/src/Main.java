@@ -8,9 +8,6 @@ class Finder {
         this.strategy = strategy;
     }
 
-    /**
-     * It performs the search algorithm according to the given strategy
-     */
     public int find(int[] numbers) {
         return strategy.getResult(numbers);
     }
@@ -18,9 +15,6 @@ class Finder {
 
 interface FindingStrategy {
 
-    /**
-     * Returns search result
-     */
     int getResult(int[] numbers);
 }
 
